@@ -1,0 +1,28 @@
+{
+  "name": "secretchatserver",
+  "version": "1.0.0",
+  "description": "Node server for secret chat using sockets",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodejs-nkurapati/secretchat.git"
+  },
+  "keywords": [
+    "nodejs",
+    "sockets",
+    "chat"
+  ],
+  "author": "@NKurapati <kurapati.narendra@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nodejs-nkurapati/secretchat/issues"
+  },
+  "homepage": "https://github.com/nodejs-nkurapati/secretchat#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.0.4"
+  }
+}
