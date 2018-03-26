@@ -8,6 +8,6 @@ app.get('/', (req, res)=> {
     res.send("<h1>Coming soon...</h1>");
 })
 
-server.listen(3000, ()=>{
+server.listen(80, ()=>{
     console.log('Server Started...');
 })
